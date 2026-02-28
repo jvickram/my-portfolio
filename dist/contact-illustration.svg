@@ -1,0 +1,14 @@
+<svg width="640" height="240" viewBox="0 0 640 240" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="c1" x1="0" y1="0" x2="640" y2="240" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#5D83FF"/>
+      <stop offset="1" stop-color="#5AD4FF"/>
+    </linearGradient>
+  </defs>
+  <rect width="640" height="240" rx="24" fill="#0E1D44"/>
+  <path d="M52 52H588V188H52V52Z" fill="url(#c1)" fill-opacity="0.18" stroke="#8DB6FF" stroke-opacity="0.55"/>
+  <path d="M54 54L320 132L586 54" stroke="#D7E9FF" stroke-width="4"/>
+  <circle cx="320" cy="132" r="8" fill="#FFFFFF"/>
+  <text x="78" y="96" fill="#E9F3FF" font-family="Inter, Arial" font-size="22" font-weight="700">Let’s build together</text>
+  <text x="78" y="126" fill="#CDE0FF" font-family="Inter, Arial" font-size="15">Open to impactful roles and collaborations</text>
+</svg>

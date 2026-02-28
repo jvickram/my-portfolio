@@ -1,0 +1,8 @@
+<svg width="160" height="64" viewBox="0 0 160 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="160" height="64" rx="14" fill="#13263A"/>
+  <rect x="8" y="8" width="48" height="48" rx="12" fill="#30D0C6"/>
+  <circle cx="32" cy="32" r="12" fill="#0F4F63"/>
+  <circle cx="32" cy="32" r="6" fill="#D8FFFB"/>
+  <text x="66" y="31" fill="#F4FDFF" font-family="Inter, Arial" font-size="12" font-weight="700">Brillio</text>
+  <text x="66" y="46" fill="#9FCBDD" font-family="Inter, Arial" font-size="10">Senior Engineer</text>
+</svg>

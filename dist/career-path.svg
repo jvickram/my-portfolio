@@ -1,0 +1,17 @@
+<svg width="1200" height="260" viewBox="0 0 1200 260" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="line" x1="40" y1="130" x2="1160" y2="130" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#6BA8FF"/>
+      <stop offset="1" stop-color="#63E0FF"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="260" rx="24" fill="#0F1C3D"/>
+  <path d="M60 182C220 30 370 232 540 104C710 0 880 222 1140 56" stroke="url(#line)" stroke-width="6" stroke-linecap="round"/>
+  <g>
+    <circle cx="220" cy="84" r="12" fill="#fff"/>
+    <circle cx="540" cy="104" r="12" fill="#fff"/>
+    <circle cx="860" cy="170" r="12" fill="#fff"/>
+  </g>
+  <text x="58" y="66" fill="#EAF3FF" font-family="Inter, Arial" font-size="28" font-weight="700">Career Progression</text>
+  <text x="58" y="96" fill="#BFD7FF" font-family="Inter, Arial" font-size="15">From engineer to tech lead with impact-focused delivery</text>
+</svg>

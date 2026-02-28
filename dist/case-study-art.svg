@@ -1,0 +1,26 @@
+<svg width="640" height="320" viewBox="0 0 640 320" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="640" y2="320" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#172A63"/>
+      <stop offset="1" stop-color="#1F4FD1"/>
+    </linearGradient>
+    <radialGradient id="r1" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(192 96) rotate(37) scale(220)">
+      <stop stop-color="#7ED7FF"/>
+      <stop offset="1" stop-color="#7ED7FF" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="640" height="320" rx="24" fill="url(#bg)"/>
+  <circle cx="192" cy="96" r="180" fill="url(#r1)" fill-opacity="0.55"/>
+  <g opacity="0.82" stroke="#D7E8FF" stroke-width="2">
+    <path d="M72 252C146 196 198 206 266 158C332 112 402 78 570 68"/>
+    <path d="M72 276C148 224 210 236 282 182C340 138 410 102 570 92"/>
+    <path d="M72 300C154 250 226 262 294 212C354 168 416 132 570 114"/>
+  </g>
+  <g>
+    <circle cx="266" cy="158" r="8" fill="#FFFFFF"/>
+    <circle cx="282" cy="182" r="8" fill="#FFFFFF"/>
+    <circle cx="294" cy="212" r="8" fill="#FFFFFF"/>
+  </g>
+  <text x="74" y="76" fill="#F5FAFF" font-family="Inter, Arial" font-size="24" font-weight="700">Case Study Visual</text>
+  <text x="74" y="108" fill="#D3E2FF" font-family="Inter, Arial" font-size="16">Outcomes, scale and engineering impact</text>
+</svg>

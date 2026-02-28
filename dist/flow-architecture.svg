@@ -1,0 +1,26 @@
+<svg width="640" height="420" viewBox="0 0 640 420" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="g1" x1="0" y1="0" x2="640" y2="420" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#4F7CFF"/>
+      <stop offset="1" stop-color="#52D1FF"/>
+    </linearGradient>
+    <linearGradient id="g2" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#ffffff" stop-opacity="0.7"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0.12"/>
+    </linearGradient>
+  </defs>
+  <rect width="640" height="420" rx="28" fill="#0F1830"/>
+  <circle cx="118" cy="74" r="90" fill="url(#g1)" fill-opacity="0.34"/>
+  <circle cx="542" cy="356" r="120" fill="#69AEFF" fill-opacity="0.2"/>
+  <rect x="58" y="58" width="220" height="120" rx="18" fill="url(#g2)" stroke="#8AB7FF" stroke-opacity="0.45"/>
+  <rect x="210" y="160" width="220" height="120" rx="18" fill="url(#g2)" stroke="#8AB7FF" stroke-opacity="0.45"/>
+  <rect x="362" y="262" width="220" height="100" rx="18" fill="url(#g2)" stroke="#8AB7FF" stroke-opacity="0.45"/>
+  <path d="M278 118H350" stroke="#CDE2FF" stroke-width="4" stroke-linecap="round"/>
+  <path d="M430 220H502" stroke="#CDE2FF" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="350" cy="118" r="9" fill="#D9ECFF"/>
+  <circle cx="430" cy="220" r="9" fill="#D9ECFF"/>
+  <circle cx="502" cy="220" r="9" fill="#D9ECFF"/>
+  <text x="86" y="124" fill="#EAF4FF" font-family="Inter, Arial" font-size="20" font-weight="700">Architecture</text>
+  <text x="242" y="226" fill="#EAF4FF" font-family="Inter, Arial" font-size="20" font-weight="700">Delivery</text>
+  <text x="394" y="318" fill="#EAF4FF" font-family="Inter, Arial" font-size="20" font-weight="700">Scale</text>
+</svg>

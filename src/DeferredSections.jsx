@@ -4,6 +4,8 @@ const IconBase = ({ children, ...props }) => (
   </svg>
 )
 
+const asset = (path) => `${import.meta.env.BASE_URL}${path.replace(/^\//, '')}`
+
 const FiAward = (props) => (
   <IconBase {...props}>
     <circle cx="12" cy="8" r="6" />
@@ -132,7 +134,7 @@ const experience = [
   {
     role: 'Tech Lead',
     company: 'Tech Mahindra',
-    logo: '/company-techmahindra.svg',
+    logo: asset('company-techmahindra.svg'),
     period: 'Jun 2022 - Present',
     highlights: [
       'Led and mentored a cross-functional team of 7 engineers and improved delivery velocity by 150%.',
@@ -144,7 +146,7 @@ const experience = [
   {
     role: 'Senior Engineer',
     company: 'Brillio Technologies Pvt Ltd',
-    logo: '/company-brillio.svg',
+    logo: asset('company-brillio.svg'),
     period: 'May 2021 - Jun 2022',
     highlights: [
       'Strengthened deployment security validations for enterprise initiatives.',
@@ -156,7 +158,7 @@ const experience = [
   {
     role: 'Software Engineer',
     company: 'Saltside Technologies India Pvt Ltd',
-    logo: '/company-saltside.svg',
+    logo: asset('company-saltside.svg'),
     period: 'Feb 2021 - May 2021',
     highlights: [
       'Delivered full-stack features for personalized discovery experiences that increased engagement.',
@@ -167,7 +169,7 @@ const experience = [
   {
     role: 'Software Engineer',
     company: 'Advanced Business and Health Care Solution Pvt Ltd',
-    logo: '/company-abhcs.svg',
+    logo: asset('company-abhcs.svg'),
     period: 'Feb 2019 - Feb 2021',
     highlights: [
       'Led migration from desktop systems to web applications with microservice-oriented architecture.',
@@ -178,7 +180,7 @@ const experience = [
   {
     role: 'Web Developer',
     company: 'Semonics Technologies Pvt Ltd',
-    logo: '/company-semonics.svg',
+    logo: asset('company-semonics.svg'),
     period: 'Jan 2018 - Dec 2018',
     highlights: [
       'Delivered secure React e-commerce UI integrated with Node/Express services.',
@@ -188,7 +190,7 @@ const experience = [
   {
     role: 'Software Engineer Trainee',
     company: 'Percoyo Pvt Ltd',
-    logo: '/company-percoyo.svg',
+    logo: asset('company-percoyo.svg'),
     period: 'Jul 2017 - Dec 2017',
     highlights: [
       'Used CRM systems to improve responsiveness and customer interaction tracking.',
@@ -232,55 +234,55 @@ const certifications = [
   {
     title: 'Frontend Expert',
     provider: 'AlgoExpert',
-    logo: '/logo-algoexpert.svg',
+    logo: asset('logo-algoexpert.svg'),
     link: 'https://www.linkedin.com/redir/redirect/?url=https%3A%2F%2Fcertificate.algoexpert.io%2FFrontendExpert%2520Certificate%2520FE-59043b15f3&urlhash=IAQE&isSdui=true&lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3BYoBO7QobR4a4X9r5S2igzg%3D%3D',
   },
   {
     title: 'Front-end Development with React',
     provider: 'Coursera',
-    logo: '/logo-coursera.svg',
+    logo: asset('logo-coursera.svg'),
     link: 'https://www.coursera.org/account/accomplishments/certificate/CX6K6KQK6TK9',
   },
   {
     title: 'Interactivity with JavaScript',
     provider: 'Coursera',
-    logo: '/logo-coursera.svg',
+    logo: asset('logo-coursera.svg'),
     link: 'https://www.coursera.org/account/accomplishments/certificate/2UR6UPYDFXLT',
   },
   {
     title: 'Advanced Styling with Responsive Design',
     provider: 'Coursera',
-    logo: '/logo-coursera.svg',
+    logo: asset('logo-coursera.svg'),
     link: 'https://www.coursera.org/account/accomplishments/certificate/646M8Q2VFM8Q',
   },
   {
     title: 'The Complete Node.js Developer Course',
     provider: 'Udemy',
-    logo: '/logo-udemy.svg',
+    logo: asset('logo-udemy.svg'),
     link: 'https://www.udemy.com/certificate/UC-2NLRJROI/',
   },
   {
     title: 'The Complete SQL Master Class',
     provider: 'Udemy',
-    logo: '/logo-udemy.svg',
+    logo: asset('logo-udemy.svg'),
     link: 'https://www.udemy.com/certificate/UC-b288be6e-b63b-4d39-8e9b-340081b4eda2/',
   },
   {
     title: 'Introduction to CSS3',
     provider: 'Coursera',
-    logo: '/logo-coursera.svg',
+    logo: asset('logo-coursera.svg'),
     link: 'https://www.linkedin.com/redir/redirect/?url=https%3A%2F%2Fwww.coursera.org%2Faccount%2Faccomplishments%2Fverify%2F4R3AMGSK77B9&urlhash=-IRT&isSdui=true&lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3BYoBO7QobR4a4X9r5S2igzg%3D%3D',
   },
   {
     title: 'Introduction to HTML5',
     provider: 'Coursera',
-    logo: '/logo-coursera.svg',
+    logo: asset('logo-coursera.svg'),
     link: 'https://www.linkedin.com/redir/redirect/?url=https%3A%2F%2Fwww.coursera.org%2Faccount%2Faccomplishments%2Fverify%2FL4DGUVFBMA65&urlhash=Oys-&isSdui=true&lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3BYoBO7QobR4a4X9r5S2igzg%3D%3D',
   },
   {
     title: 'JavaScript ES6 Certified',
     provider: 'LinkedIn',
-    logo: '/logo-linkedin.svg',
+    logo: asset('logo-linkedin.svg'),
     link: 'https://www.linkedin.com/redir/redirect/?url=https%3A%2F%2Fskillvalue.com%2Fen%2Fcertificate%2Fs5qRast0eSbpUB8Oz6i0J5qAtVb6G7clKOr7zTuDEMfB4fft7FF0gBbS08ms&urlhash=JLRq&isSdui=true&lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3BYoBO7QobR4a4X9r5S2igzg%3D%3D',
   },
 ]
@@ -401,7 +403,7 @@ function DeferredSections({ isMobile }) {
         {!isMobile ? (
           <img
             className="career-banner"
-            src="/career-path.svg"
+            src={asset('career-path.svg')}
             alt="Career progression visual"
             loading="lazy"
             decoding="async"
@@ -436,7 +438,7 @@ function DeferredSections({ isMobile }) {
         {!isMobile ? (
           <img
             className="projects-banner"
-            src="/case-study-art.svg"
+            src={asset('case-study-art.svg')}
             alt="Case studies visual banner"
             loading="lazy"
             decoding="async"
@@ -533,7 +535,7 @@ function DeferredSections({ isMobile }) {
           {!isMobile ? (
             <img
               className="contact-illustration"
-              src="/contact-illustration.svg"
+              src={asset('contact-illustration.svg')}
               alt="Contact illustration"
               loading="lazy"
               decoding="async"

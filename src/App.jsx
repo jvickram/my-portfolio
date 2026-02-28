@@ -2,6 +2,7 @@ import { lazy, Suspense, useEffect, useState } from 'react'
 import './App.css'
 
 const DeferredSections = lazy(() => import('./DeferredSections'))
+const asset = (path) => `${import.meta.env.BASE_URL}${path.replace(/^\//, '')}`
 
 const IconBase = ({ children, ...props }) => (
   <svg viewBox="0 0 24 24" width="1em" height="1em" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true" {...props}>
@@ -254,8 +255,8 @@ function App() {
         <article className="hero-card">
           <img
             className="profile-image"
-            src="/MeOnBeach-mobile.jpg"
-            srcSet="/MeOnBeach-mobile.jpg 170w, /MeOnBeach-optimized.jpg 340w"
+            src={asset('MeOnBeach-mobile.jpg')}
+            srcSet={`${asset('MeOnBeach-mobile.jpg')} 170w, ${asset('MeOnBeach-optimized.jpg')} 340w`}
             sizes="(max-width: 760px) 120px, 170px"
             alt="Bickey Jaisawal"
             width="170"
@@ -339,7 +340,7 @@ function App() {
             {!isMobile ? (
               <img
                 className="spotlight-visual"
-                src="/flow-architecture.svg"
+                src={asset('flow-architecture.svg')}
                 alt="Architecture and delivery illustration"
                 loading="lazy"
                 decoding="async"

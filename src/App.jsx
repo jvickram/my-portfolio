@@ -156,6 +156,12 @@ const featuredProjects = [
 
 const certifications = [
   {
+    title: 'Frontend Expert',
+    provider: 'AlgoExpert',
+    logo: '/logo-algoexpert.svg',
+    link: 'https://www.linkedin.com/redir/redirect/?url=https%3A%2F%2Fcertificate.algoexpert.io%2FFrontendExpert%2520Certificate%2520FE-59043b15f3&urlhash=IAQE&isSdui=true&lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3BYoBO7QobR4a4X9r5S2igzg%3D%3D',
+  },
+  {
     title: 'Front-end Development with React',
     provider: 'Coursera',
     logo: '/logo-coursera.svg',
@@ -189,31 +195,19 @@ const certifications = [
     title: 'Introduction to CSS3',
     provider: 'Coursera',
     logo: '/logo-coursera.svg',
-    link: 'https://www.coursera.org',
+    link: 'https://www.linkedin.com/redir/redirect/?url=https%3A%2F%2Fwww.coursera.org%2Faccount%2Faccomplishments%2Fverify%2F4R3AMGSK77B9&urlhash=-IRT&isSdui=true&lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3BYoBO7QobR4a4X9r5S2igzg%3D%3D',
   },
   {
     title: 'Introduction to HTML5',
     provider: 'Coursera',
     logo: '/logo-coursera.svg',
-    link: 'https://www.coursera.org',
-  },
-  {
-    title: 'Frontend Expert',
-    provider: 'AlgoExpert',
-    logo: '/logo-algoexpert.svg',
-    link: 'https://www.algoexpert.io',
+    link: 'https://www.linkedin.com/redir/redirect/?url=https%3A%2F%2Fwww.coursera.org%2Faccount%2Faccomplishments%2Fverify%2FL4DGUVFBMA65&urlhash=Oys-&isSdui=true&lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3BYoBO7QobR4a4X9r5S2igzg%3D%3D',
   },
   {
     title: 'JavaScript ES6 Certified',
     provider: 'LinkedIn',
     logo: '/logo-linkedin.svg',
-    link: 'https://www.linkedin.com/in/bickey-jaisawal-850a8782/',
-  },
-  {
-    title: 'ReactJs Quiz',
-    provider: 'LinkedIn',
-    logo: '/logo-linkedin.svg',
-    link: 'https://www.linkedin.com/in/bickey-jaisawal-850a8782/',
+    link: 'https://www.linkedin.com/redir/redirect/?url=https%3A%2F%2Fskillvalue.com%2Fen%2Fcertificate%2Fs5qRast0eSbpUB8Oz6i0J5qAtVb6G7clKOr7zTuDEMfB4fft7FF0gBbS08ms&urlhash=JLRq&isSdui=true&lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3BYoBO7QobR4a4X9r5S2igzg%3D%3D',
   },
 ]
 

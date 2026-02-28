@@ -1,0 +1,7 @@
+<svg width="160" height="64" viewBox="0 0 160 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="160" height="64" rx="14" fill="#2A2235"/>
+  <rect x="8" y="8" width="48" height="48" rx="12" fill="#FF9D57"/>
+  <path d="M24 22H36C40 22 42 25 42 28C42 31 40 34 36 34H30V42H24V22ZM30 28V30H35C35.8 30 36.2 29.6 36.2 29C36.2 28.4 35.8 28 35 28H30Z" fill="#FFF2E9"/>
+  <text x="66" y="31" fill="#FFF6EF" font-family="Inter, Arial" font-size="12" font-weight="700">Percoyo</text>
+  <text x="66" y="46" fill="#EAC9AF" font-family="Inter, Arial" font-size="10">Trainee Engineer</text>
+</svg>

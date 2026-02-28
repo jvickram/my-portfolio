@@ -1,0 +1,5 @@
+<svg width="120" height="40" viewBox="0 0 120 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="120" height="40" rx="10" fill="#0F172A"/>
+  <path d="M18 28L28 12H34L44 28H38L36 24H26L24 28H18ZM28.5 20H33.5L31 15.5L28.5 20Z" fill="#22D3EE"/>
+  <text x="82" y="25" text-anchor="middle" fill="#FFFFFF" font-family="Inter, Arial" font-size="12" font-weight="700">AlgoExpert</text>
+</svg>

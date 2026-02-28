@@ -1,0 +1,7 @@
+<svg width="160" height="64" viewBox="0 0 160 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="160" height="64" rx="14" fill="#1F2E2B"/>
+  <rect x="8" y="8" width="48" height="48" rx="12" fill="#41C47F"/>
+  <path d="M22 24H42V30H28V34H42V40H22V24Z" fill="#E8FFF2"/>
+  <text x="66" y="31" fill="#F0FFF7" font-family="Inter, Arial" font-size="12" font-weight="700">Semonics</text>
+  <text x="66" y="46" fill="#AFDDC5" font-family="Inter, Arial" font-size="10">Web Developer</text>
+</svg>

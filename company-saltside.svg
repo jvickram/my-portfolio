@@ -1,0 +1,7 @@
+<svg width="160" height="64" viewBox="0 0 160 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="160" height="64" rx="14" fill="#17263D"/>
+  <rect x="8" y="8" width="48" height="48" rx="12" fill="#5D95FF"/>
+  <path d="M20 34C22 42 42 42 44 30C45 23 37 20 32 24C26 20 19 25 20 34Z" fill="#E8F0FF"/>
+  <text x="66" y="31" fill="#ECF3FF" font-family="Inter, Arial" font-size="12" font-weight="700">Saltside</text>
+  <text x="66" y="46" fill="#A8BBDF" font-family="Inter, Arial" font-size="10">Software Engineer</text>
+</svg>

@@ -1,0 +1,5 @@
+<svg width="120" height="40" viewBox="0 0 120 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="120" height="40" rx="10" fill="#A435F0"/>
+  <path d="M29 24V12H34V24C34 27 36 29 39 29C42 29 44 27 44 24V12H49V24C49 30 45 34 39 34C33 34 29 30 29 24Z" fill="#FFFFFF"/>
+  <text x="87" y="25" text-anchor="middle" fill="#FFFFFF" font-family="Inter, Arial" font-size="14" font-weight="700">Udemy</text>
+</svg>

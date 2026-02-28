@@ -1,0 +1,7 @@
+<svg width="160" height="64" viewBox="0 0 160 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="160" height="64" rx="14" fill="#151B2C"/>
+  <rect x="8" y="8" width="48" height="48" rx="12" fill="#FF5B5B"/>
+  <path d="M22 22H42V28H35V42H29V28H22V22Z" fill="#fff"/>
+  <text x="66" y="31" fill="#F4F7FF" font-family="Inter, Arial" font-size="12" font-weight="700">Tech Mahindra</text>
+  <text x="66" y="46" fill="#B9C6E6" font-family="Inter, Arial" font-size="10">Tech Lead</text>
+</svg>
